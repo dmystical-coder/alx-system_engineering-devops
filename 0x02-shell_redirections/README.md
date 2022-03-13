@@ -29,3 +29,27 @@ File, 13-unique creates a script that takes a list of words as input and prints 
 File, 14-findthatword displays lines containing the pattern “root” from the file /etc/passwd
 
 File, 15-countthatword displays the number of lines that contain the pattern “bin” in the file /etc/passwd.
+
+File, 16-whatsnext displays lines containing the pattern “root” and 3 lines after them in the file /etc/passwd.
+
+File, 17-hidethisword displays all the lines in the file /etc/passwd that do not contain the pattern “bin”.
+
+File, 18-letteronly displays all lines of the file /etc/ssh/sshd_config starting with a letter, including capital letters as well.
+
+File, 19-AZ replaces all characters A and c from input to Z and e respectively.
+
+File, 20-hiago creates a script that removes all letters c and C from input.
+
+File, 21-reverse is a script that reverse its input.
+
+File, 22-users_and_homes creates a script that displays all users and their home directories, sorted by users, based on the the /etc/passwd file.
+
+File, 100-empty_casks contains a command that finds all empty files and directories in the current directory and all sub-directories.
+
+File, 101-gifs is a script that lists all the files with a .gif extension in the current directory and all its sub-directories.
+
+An acrostic is a poem (or other form of writing) in which the first letter (or syllable, or word) of each line (or paragraph, or other recurring feature in the text) spells out a word, message or the alphabet. The word comes from the French acrostiche from post-classical Latin acrostichis). As a form of constrained writing, an acrostic can be used as a mnemonic device to aid memory retrieval.
+
+File, 102-acrostic is a script that decodes acrostics that use the first letter of each line.
+
+File, 103-the_biggest_fan is a script that parses web servers logs in TSV format as input and displays the 11 hosts or IP addresses which did the most requests.
